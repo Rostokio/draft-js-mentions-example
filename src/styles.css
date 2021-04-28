@@ -1,0 +1,60 @@
+.container {
+    background-color: lightgrey;
+    padding: 30px 35px;
+}
+
+.PostEditor__container {
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4);
+    transition: all 0.1s ease-out;
+}
+.PostEditor {
+    border: 0;
+    box-sizing: border-box;
+    font-family: ripplingFontBook;
+    font-size: 16px;
+    height: auto;
+    min-height: 140px;
+    outline: none;
+    padding: 20px;
+    resize: none;
+    width: 100%;
+}
+
+.PostEditor__input {
+    border: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-family: ripplingFontBook;
+    font-size: 16px;
+    height: auto;
+    min-height: 140px;
+    outline: none;
+    padding: 20px;
+    resize: none;
+    width: 100%;
+}
+
+.PostEditor__footer {
+    margin-top: 0;
+    transition: margin-top 0.1s ease-out;
+    z-index: 1;
+    background-color: #BEBEBE;
+    padding: 10px;
+}
+
+.PostEditor__footer button {
+    opacity: 0.8;
+    color: #182433;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    margin: 0 10px;
+    outline: none;
+    padding: 5px 10px 5px;
+    text-transform: uppercase;
+}
